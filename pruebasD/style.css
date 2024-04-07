@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body {
+    background: linear-gradient(to right, #1324,#454);
+    height: 100%;
+}
+
+div {
+    color: wheat;
+    background-color: #454;
+}
+
+a {
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    text-decoration: none; /* Quita la subrayado predeterminado del enlace */
+    color: aliceblue;
+}
+
+/* Selector de elemento */
+a[href] {
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    text-decoration: none; /* Quita la subrayado predeterminado del enlace */
+    color: aliceblue;
+
+}
